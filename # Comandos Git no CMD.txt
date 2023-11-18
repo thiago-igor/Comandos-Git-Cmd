@@ -1,0 +1,85 @@
+# Configurar Chave SSH:
+
+I)Primeiro passo:
+ git config --global user.email "you@example.com"
+ 
+git config --global user.name "Your Name"
+
+I) Seguir o passo a passo do gitHub:
+	link: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh
+
+II) Ou ver tutorial no youtube
+	link: https://www.youtube.com/watch?v=en1dycYtL48&t=620s
+-----------------------------------------------------------------------------------
+
+# Começando
+
+- Cria a pasta do projeto
+- Botao direito na pasta que deseja abrir e abre no terminal
+- No terminal executa 'bash'
+
+-----------------------------------------------------------------------------------
+# Criando projeto:
+Comandos:
+
+I) 'git init' (inicia um repositorio local)
+
+II) 'git status' (para ver oq precisa ser comitado)
+
+III) 'git add nome do arquivo' (adiciona o arquivo desejado para area do commit) ou 'git add .' (Adciona tudo no commit)
+
+IV) 'git commit -m "menssagem do commit" ' (fazer commit) 'git log' (quais commits fizemos)
+
+V) 'git branch -M "main" (renomear minha branch caso precise. Nesse caso para 'main')
+
+VI) Abre o gitHub e cria um projeto la
+
+VII) Nesse repositorio vai aparecer alguns comandos e um link 
+
+VIII)'git remote add origin "o link do repositorio do gitHub" '
+
+IX) 'git push origin -u main' (da um push)
+
+X) 'git pull' (Para atualizar mudanças feitas no gitHub para maquina)
+
+
+
+-----------------------------------------------------------------------------------
+
+# Criando projeto maneira 2:
+Comandos:
+
+- Cria a pasta do projeto
+
+I) Abre o gitHub e cria um projeto la
+
+II) Copia o link SSH
+
+III) 'git clone git@github.com:thiago-igor/...'  (assim vai clonar seu repositorio para a pasta da maquina)
+
+
+
+-----------------------------------------------------------------------------------
+
+# Criar uma branch:
+
+I) git checkout -b "nome-branch" (cria uma nova branch e entra nela)
+
+II) git checkout main (Voltar para main)
+
+
+-----------------------------------------------------------------------------------
+
+# Fazer um 'Merge' (Juntar as branch)
+
+- Na branch main digita o comando:
+I) git merge 'nome-branch'
+
+
+-----------------------------------------------------------------------------------
+# Fork (Copiar um repositorio de alguem para seus repositorios)
+
+I) Vai no projeto que deseja
+II) no canto superior direito tem a opção fork
+III) Clica nessa opç~~ao e seleciona seu perfil
+IV) Assim serar copiado para o seu repositorio

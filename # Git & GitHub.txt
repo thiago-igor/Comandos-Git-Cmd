@@ -1,0 +1,35 @@
+# Git & GitHub:
+
+# Problemas no vscode:
+I) Vai no guitHub: https://github.com/microsoft
+II) Vai em repositorios e procura pelo vscode
+III) Colaco o erro que esta tendo para ver se alguem ja teve e foi respondido (Em Ingles)
+IV) Caso não tenha resposta ai cria uma Issues (Problema) p/ assim alguem lhe responder
+
+
+#Branch:
+- Para dividir nosso projeto entre desenvolvedores e funções diferentes
+
+- Criar uma nova Branch:
+I) Pela Branch main vai na opção 'Branch' e "New Branch"
+
+
+- Fazer um Merge intro (Juntar as Branch)
+I)Acessa a Branch main 
+II) Opção Branch
+III) vai em 'Merge intro current...'
+IV) se nao hover conflito finaliza
+V) Se houver conflito, analiza e ver o que deve ficar 
+VI) Caso a branch nao tenha mais utilidade pode ser deletada 
+VII) Basta entrar na branch desejada e na opção 'Branch' vai em 'delete'
+
+
++ Criar uma page com github:
+I) Vai no repositorio que deseja
+II) Configurações 
+III) No canto esquerdo tem uma opção de 'pages'
+IV) Na opção Branch Your GitHub Pages site is...   vai ta marcado (None)
+V)Marcamos a branch main e salvamos
+VI) com um tempo ira aparecer a opção para vizualizar o site criado
+VII) OBS: so funciona para sites simples
+
